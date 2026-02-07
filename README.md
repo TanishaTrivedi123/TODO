@@ -1,16 +1,90 @@
-# React + Vite
+# ✅ Todo App – State Management Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **frontend-focused Todo application** built to strengthen and compare **core React state management techniques**. This project intentionally uses **multiple approaches** — `useState`, `useReducer`, and **Redux Toolkit** — to gain hands-on experience and understand their **real-world use cases**.
 
-Currently, two official plugins are available:
+> 🎯 Primary Goal: **Concept clarity over UI complexity**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🎯 Project Objectives
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Understand **when & why** to use different state management techniques
+* Compare **local vs global** state handling
+* Improve frontend architecture & logic clarity
+* Build predictable and scalable state flows
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* ➕ Add new tasks
+* 🗑️ Delete tasks
+* ✏️ Update & manage task state
+* 🔄 Dynamic UI updates
+* 📦 Centralized global state using Redux
+
+---
+
+## 🛠️ State Management Concepts Used
+
+### 🔹 useState
+
+* Used for **simple & local UI state**
+* Quick state updates for small components
+* Minimal boilerplate
+
+---
+
+### 🔹 useReducer
+
+* Applied for **complex state logic**
+* Action-based state updates
+* Improved predictability & readability
+
+---
+
+### 🔹 Redux (Redux Toolkit)
+
+* Global state management
+* **Single source of truth**
+* Structured reducers & actions
+* Better scalability for growing applications
+
+---
+
+## 🧠 Key Learnings
+
+* Clear difference between **useState vs useReducer**
+* Practical understanding of **when Redux is actually required**
+* How state flow impacts **UI performance**
+* Writing clean, maintainable & scalable state logic
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚛️ React.js
+* 📦 Redux Toolkit
+* 🟨 JavaScript (ES6+)
+* 🎨 CSS
+
+---
+
+## 🚧 Future Improvements
+
+* 🔄 Persist todos using **LocalStorage**
+* 🔐 Authentication-based todos
+* 📱 Fully responsive UI
+* 🧪 Unit testing
+
+---
+
+## 👨‍💻 Developer
+
+**Ansh Pandey**
+Frontend / MERN Developer
+📌 Focused on mastering **React concepts through hands-on projects**
+
+---
+
+⭐ *This project reflects practical learning, experimentation, and strong concept clarity.*
