@@ -81,8 +81,8 @@ A **frontend-focused Todo application** built to strengthen and compare **core R
 
 ## 👨‍💻 Developer
 
-**Ansh Pandey**
-Frontend / MERN Developer
+**Tanisha Trivedi**
+MERN Developer
 📌 Focused on mastering **React concepts through hands-on projects**
 
 ---
